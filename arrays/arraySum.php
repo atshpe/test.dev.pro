@@ -2,7 +2,8 @@
 
 function arrayElementsSum(array $data) {
 
-    error_reporting(E_ERROR | E_PARSE);
+    // to disable displaying warnings
+    // error_reporting(E_ERROR | E_PARSE);
 
     $callback = function ($values) use (&$callback) {
         $i = 0;
